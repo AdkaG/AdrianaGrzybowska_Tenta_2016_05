@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Tenta_MVC_Adriana
+namespace Tenta_MVC_Up3
 {
     public class RouteConfig
     {
@@ -16,7 +16,7 @@ namespace Tenta_MVC_Adriana
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Store", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
